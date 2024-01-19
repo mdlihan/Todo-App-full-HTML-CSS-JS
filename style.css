@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B6BBC4;
+}
+.card-title{
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+.card{
+  background-color: #3D3B40;
+  padding: 0.71rem;
+  height: 28rem;
+  max-width: 85%;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #E9F6FF;
+  overflow: scroll;
+}
+#card-search{
+  border: none;
+  padding: 6px;
+  font-size: large;
+  border-radius: 6px;
+  max-width: 80%;
+}
+#button{
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: .6s;
+}
+#button:hover{
+  background-color: #FFEAA7;
+}
+
+ul li{
+  list-style-type: none;
+  color: white;
+}
+
+#card-form{
+  margin-bottom: 0.7rem;
+}
+
+.li{
+  border-left: 8px solid lightgreen;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: burlywood;
+  margin-bottom: 0.3rem;
+  display: flex;
+  transition: 0.6;
+  justify-content: space-between;
+}
+.li:hover{
+  background-color: #FFC47E;
+}
+.deletebutton{
+  color: red;
+  background-color:#FFB996;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.deletebutton:hover{
+  color: #FBF9F1;
+}
+.massegecolor{
+  color: white;
+  background-color: #789461;
+  margin-bottom: 0.6rem;
+  border-radius: 6px;
+  padding: 0.4rem;
+  border-left: 10px solid #E3651D;
+}
+
+.massegedeletecolor{
+  color: white;
+  background-color: red;
+  margin-bottom: 0.6rem;
+  border-radius: 6px;
+  padding: 0.4rem;
+  border-left: 10px solid #E3651D;
+}
